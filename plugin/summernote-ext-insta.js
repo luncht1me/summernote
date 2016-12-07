@@ -38,7 +38,7 @@
                     '<label> insta URL? <small class="text-muted"> ie: https://www.instagram.com/p/BNcUotoACH1 </small></label>' +
                     '<input class="note-insta-url form-control span12" type="text" />' +
                     '</div>';
-                var footer = '<button href="#" class="btn btn-primary note-insta-btn disabled" disabled>' + lang.video.insert + '</button>';
+                var footer = '<button href="#" class="btn btn-primary note-insta-btn disabled" disabled> Insert Instagram </button>';
                 
                 this.$dialog = ui.dialog({
                     title: "Embed Instagram Post",
