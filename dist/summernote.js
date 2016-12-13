@@ -1435,11 +1435,11 @@
     var posFromPlaceholder = function (placeholder) {
       var $placeholder = $(placeholder);
       var pos = $placeholder.offset();
-      var height = $placeholder.outerHeight(true); // include margin
+      //var height = $placeholder.outerHeight(true); // include margin
 
       return {
         left: pos.left,
-        top: pos.top + height
+        top: pos.top
       };
     };
 
