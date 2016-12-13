@@ -5952,9 +5952,9 @@
           context.triggerEvent('dialog.shown');
 
           // if no url was given, copy text to url
-          if (!linkInfo.url) {
+          /*if (!linkInfo.url) {
             linkInfo.url = linkInfo.text;
-          }
+          }*/
 
           $linkText.val(linkInfo.text);
 
